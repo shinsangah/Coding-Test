@@ -42,34 +42,3 @@ function solution(n) {
   let answer = "";
   return n % 2 === 0 ? "Even" : "Odd"
 }
-
-function solution(n) {
-  let answer = "";
-  if (n % 2 === 0) {
-    answer = "Even"
-  } else {
-    answer = "Odd"
-  }
-  return answer;
-}
-
-function solution(n) {
-  let answer = "";
-  return n % 2 === 0 ? "Even" : "Odd"
-}
-
-
-fuction solution(n) {
-  let answer = "";
-  return n % 2 === 0 ? "Even" : "Odd"
-}
-
-function solutino(n) {
-  let answer = "";
-  if (n % 2 === 0) {
-    answer = "Even"
-  } else {
-    answer = "Odd"
-  }
-  return answer;
-}
