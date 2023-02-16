@@ -24,3 +24,4 @@ function solution(num1, num2) {
   return answer;
 }
 
+// 값 넣어서 보고싶음
