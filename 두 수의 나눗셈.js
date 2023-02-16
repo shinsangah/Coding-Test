@@ -34,3 +34,9 @@ function solution(num1, num2) {
   answer = parseInt((num1 / num2) * 1000)
   return answer;
 }
+
+// parseInt = 정수 *
+
+// Number 데이터 타입의 형태, Double (실수) 와 Integer (정수)
+// 같은 숫자를 의미합니다. 정수는 10, 0, -21 등 양수, 0, 음수의 집합을 의미합니다.
+// 소수점이 있으면 실수, 없으면 정수라고 정리하면 될 듯 싶습니다.
