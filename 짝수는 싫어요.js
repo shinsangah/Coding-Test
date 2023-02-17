@@ -1,3 +1,5 @@
+// 23.02.16 수업시간
+
 // // 문제 설명
 // // 정수 n이 매개변수로 주어질 때,
 // // n 이하의 홀수가 오름차순으로 담긴 배열을 return하도록 solution 함수를 완성해주세요.
@@ -39,8 +41,20 @@ function solution(n) {
 // 답 예시 2.
 function solution(n) {
   let answer = [];
-  for (let i = 1; i <= num; i += 2) { // 이런식으로 시간을 줄이는 알고리즘도 존재
+  for (let i = 1; i <= n; i += 2) { // 이런식으로 시간을 줄이는 알고리즘도 존재
     answer.push(i)
   }
   return answer;
+}
+
+
+function solution(n) {
+  let answer = [];
+
+  for (let i = 1; i <= n, i++) {
+    if (i % 2 === 1) {
+      answer.push(i)
+    }
+  }
+  return answer; ㅅ
 }
