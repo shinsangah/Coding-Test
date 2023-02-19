@@ -75,5 +75,5 @@ function solution(n) {
 // 3. 답
 function solution(n) {
   return "수박".repeat(n).substring(0, n)
-}
+} //substring(0,n) index가 순서대로 0과 n의 위치의 문자를 포함한 문자열을 리턴합니다.
 
